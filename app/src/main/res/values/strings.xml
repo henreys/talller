@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">TALLER 02</string>
+    <string name="src_emprezaXYZ">EMPRESA XYZ</string>
+    <string name="str_material">MATERIAL</string>
+    <string name="str_dije">DIJE</string>
+    <string name="str_tipo">TIPO</string>
+    <string name="str_cantidad">CANTIDAD</string>
+    <string name="str_tipoCambio">TIPO DE CAMBIO</string>
+    <string name="str_pesos">PESOS</string>
+    <string name="str_dolares">DOLARES</string>
+    <string name="str_comprar">COMPRAR</string>
+    <string name="str_limpiar">LIMPIAR</string>
+
+    // ComboBOX Material
+    <string name="str_cuero">Cuero</string>
+    <string name="str_cuerda">Cuerda</string>
+    <string-array name="str_material">
+        <item>@string/str_cuero</item>
+        <item>@string/str_cuerda</item>
+    </string-array>
+
+    // ComboBOX Dije
+
+    <string name="str_ancla">Ancla</string>
+    <string name="str_martillo">Martillo</string>
+    <string-array name="str_dije">
+        <item>@string/str_ancla</item>
+        <item>@string/str_martillo</item>
+    </string-array>
+
+    // ComboBOX Tipo
+    <string name="str_oro">Oro</string>
+    <string name="str_rosado">Rosado</string>
+    <string name="str_plata">Plata</string>
+    <string name="str_niquel">Niquel</string>
+    <string-array name="str_tipo">
+        <item>@string/str_oro</item>
+        <item>@string/str_rosado</item>
+        <item>@string/str_plata</item>
+        <item>@string/str_niquel</item>
+    </string-array>
+    <string name="str_total">TOTAL</string>
+    <string name="src_XYZ">XYZ</string>
+</resources>

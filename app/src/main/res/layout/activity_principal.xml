@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.taller.Principal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/src_XYZ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lbl_Empresa"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="@string/str_material"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lbl_tipoMaterial"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cmb_Material" />
+
+            <TextView
+                android:text="@string/str_dije"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lbl_tipoDije"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cmb_tipoDije" />
+
+            <TextView
+                android:text="@string/str_tipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lbl_Tipo"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cmb_tipo" />
+
+            <TextView
+                android:text="@string/str_cantidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lbl_Cantidad"
+                android:textSize="18sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:id="@+id/txtCantidad" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lbl_tipoMoneda"
+                android:textSize="18sp"
+                android:text="@string/str_tipoCambio" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:text="@string/str_pesos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rdb_pesos"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:text="@string/str_dolares"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rdb_dolar"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnComprar"
+                    android:layout_weight="1"
+                    android:text="@string/str_comprar"
+                    android:onClick="Comprar" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnLimpiar"
+                    android:layout_weight="1"
+                    android:text="@string/str_limpiar" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"
+                android:textSize="24sp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lbl_total"
+                    android:layout_weight="0.05"
+                    android:text="@string/str_total"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lbl_totalPagar"
+                    android:textSize="30sp"
+                    android:layout_weight="0.04"
+                    android:textStyle="normal|bold"
+                    android:text="63" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

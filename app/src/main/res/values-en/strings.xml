@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TALLER 02</string>
+    <string name="src_emprezaXYZ">BUSINESS XYZ</string>
+    <string name="str_cantidad">QUANTITY</string>
+    <string name="str_comprar">BUY</string>
+    <string name="str_dije">SAID</string>
+    <string name="str_dolares">DOLLARS</string>
+    <string name="str_limpiar">CLEAN</string>
+    <string name="str_material">MATERIAL</string>
+    <string name="str_pesos">PESOS</string>
+    <string name="str_tipo">TYPE</string>
+    <string name="str_tipoCambio">TYPE OF CHANGE</string>
+    <string name="str_ancla">Anchor</string>
+    <string name="str_cuerda">Rope</string>
+    <string name="str_cuero">Leather</string>
+    <string name="str_martillo">Hammer</string>
+    <string name="str_niquel">Nickel</string>
+    <string name="str_oro">Gold</string>
+    <string name="str_plata">Silver</string>
+    <string name="str_rosado">Pink</string>
+    <string name="str_total">TOTAL</string>
+
+</resources>
